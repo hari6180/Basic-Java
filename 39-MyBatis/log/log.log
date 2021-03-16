@@ -1,0 +1,14 @@
+2020-10-30 15:51:53,794 DEBUG [org.apache.ibatis.logging.LogFactory] Logging initialized using 'class org.apache.ibatis.logging.log4j2.Log4j2Impl' adapter.
+2020-10-30 15:51:53,810 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2020-10-30 15:51:53,811 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2020-10-30 15:51:53,811 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2020-10-30 15:51:53,811 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] PooledDataSource forcefully closed/removed all connections.
+2020-10-30 15:51:53,879 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Opening JDBC Connection
+2020-10-30 15:51:54,182 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] Created connection 1824837049.
+2020-10-30 15:51:54,183 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6cc4cdb9]
+2020-10-30 15:51:54,186 DEBUG [StudentMapper.get_student_list] ==>  Preparing: SELECT studno, name, userid, grade, idnum, birthdate, tel, height, weight, deptno, profno FROM student; 
+2020-10-30 15:51:54,205 DEBUG [StudentMapper.get_student_list] ==> Parameters: 
+2020-10-30 15:51:54,259 DEBUG [StudentMapper.get_student_list] <==      Total: 19
+2020-10-30 15:51:54,261 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6cc4cdb9]
+2020-10-30 15:51:54,262 DEBUG [org.apache.ibatis.transaction.jdbc.JdbcTransaction] Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@6cc4cdb9]
+2020-10-30 15:51:54,262 DEBUG [org.apache.ibatis.datasource.pooled.PooledDataSource] Returned connection 1824837049 to pool.
